@@ -170,7 +170,7 @@ Get all data related to the block at the current location, including its state a
   :::{treeview}
   - {nbt}`compound` **[readonly]** Block data
     - {nbt}`int` **group**: Blocks within the same group share the same possible state (e.g., stairs).
-    - {nbt}`string` **block**: Full string representation of the block `type[state]{nbt}`.
+    - {nbt}`string` **block**: Full string representation of the block `type[state]`.
     - {nbt}`string` **item**: Item string id associated with the block, if it exists.
     - {nbt}`string` **type**: String representation of the id (e.g., `minecraft:stone`).
     - {nbt}`string` **state**: Represent the state of a block (e.g., `[shape=straight]`), if it exists.
